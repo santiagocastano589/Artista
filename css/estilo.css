@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+:root{
+    --a: #7F51D9;
+    --b: #50CAC6;
+    --c: #ED8F03;
+    --d: #f4570a;
+}
+
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Header*/
+
+header{
+    background-color: #121212;
+    color: #f1f1f1;
+    padding: 10px;
+    height: 50px;
+    clear: both;
+}
+
+header h3{
+    font-size: 25px;
+    float: left;
+    padding: 10px 30px;
+    margin: 5px 30px;
+    text-shadow: 2px 2px 5px #7F51D9;
+}
+
+header nav ul li {
+    float: right;
+    padding: 12px 20px;
+    margin: 5px 16px;
+    list-style: none;
+    overflow: auto;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 23px;
+}
+
+/*Body*/
+
+body{
+    opacity: 1;
+    background-image:  radial-gradient(#f4570a 2px, transparent 2px), radial-gradient(#7f51d9 2px, #50CAC6 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
+}
+
+main{
+    background: #999999;
+    margin: 40px 70px auto;
+    border: 1px solid #000;
+}
+
+/*temas*/
+
+.texto{
+    margin: 0 30px;
+    float: left;
+    text-shadow: 2px 2px 5px #7F51D9;
+}
+
+/*fin temas*/
+.espacio {
+    background-color: #efefef;
+    margin: 30px;
+    padding: 30px;
+    border: 2px #121212 dashed;
+    height: 200px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.espacio h2 {
+    text-align: center;
+}
+
+.espacio p{
+    padding: 30px 10px;
+    font-size: 20px;
+    float: right;
+    width: 75%;
+}
+
+.espacio img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+
+.espacio img:hover{
+    transform: scale(90%);
+    transition: 1s ease;
+    box-shadow: 0 0 10px 15px #7F51D9;
+}
+
+.espacio a{
+    padding: 7px;
+    background-color: #dddddd;
+    float: right;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #f4570a;
+}
+.espacio:hover{
+    box-shadow: 10px 10px 9px #7F51D9;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+/*Footer*/
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #121212;
+    color: #efefef;
+}
+
+footer p{
+    float: right;
+    padding:10px;
+}
+/*Fin artistas*/
+
